@@ -1,0 +1,4 @@
+词的统计：awk '{for(i=1;i<=NF;i++) if($i="word") sum++}END{print sum}' 1.txt
+取出某些特定的字段：awk '{print "read"}' 1.txt
+                   awk '{print $1,$2}' 1.txt
+
