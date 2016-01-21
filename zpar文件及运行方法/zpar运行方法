@@ -1,0 +1,10 @@
+zpar 运行方法:
+(1)make zpar
+   make zpar.zh(中文)
+   make zpar.en（英文）
+(2)make segmentor      如何编译
+(3)cd learngit
+   cd zpar-develop
+   dist/segmentor/train train.txt model 1    训练模型  model是生成的模型 1是迭代次数
+(4)dist/segmentor/segmentor model input.txt output.txt         分词
+(5)python evaluate.py output.txt reference.txt                 查看准确率、召回率、F-score
