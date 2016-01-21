@@ -1,0 +1,7 @@
+HIT-ltp运行步骤：
+（1）cd ltp-3.3.0
+（2）./configure
+（3）make
+（4）./bin/ltp_test
+（5）./tools/train/otcws test --model ltp_data/cws.model --input 11.txt > 11.out
+
